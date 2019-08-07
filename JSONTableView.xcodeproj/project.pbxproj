@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		541BA13922F5E2DC003C8631 /* ImageParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541BA13822F5E2DC003C8631 /* ImageParser.swift */; };
+		541BA13B22F5E8C0003C8631 /* JSONTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541BA13A22F5E8C0003C8631 /* JSONTableViewCell.swift */; };
+		545138A422F5DD4600B45659 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545138A322F5DD4600B45659 /* AppDelegate.swift */; };
+		545138A622F5DD4600B45659 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545138A522F5DD4600B45659 /* SceneDelegate.swift */; };
+		545138A822F5DD4600B45659 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545138A722F5DD4600B45659 /* ViewController.swift */; };
+		545138AB22F5DD4600B45659 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 545138A922F5DD4600B45659 /* Main.storyboard */; };
+		545138AD22F5DD4700B45659 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 545138AC22F5DD4700B45659 /* Assets.xcassets */; };
+		545138B022F5DD4700B45659 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 545138AE22F5DD4700B45659 /* LaunchScreen.storyboard */; };
+		BD2C37923192D5564B3CED8A /* Pods_JSONTableView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD27C7F0CA5DED0BD830B80D /* Pods_JSONTableView.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		541BA13822F5E2DC003C8631 /* ImageParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageParser.swift; sourceTree = "<group>"; };
+		541BA13A22F5E8C0003C8631 /* JSONTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONTableViewCell.swift; sourceTree = "<group>"; };
+		545138A022F5DD4600B45659 /* JSONTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSONTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		545138A322F5DD4600B45659 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		545138A522F5DD4600B45659 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		545138A722F5DD4600B45659 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		545138AA22F5DD4600B45659 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		545138AC22F5DD4700B45659 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		545138AF22F5DD4700B45659 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		545138B122F5DD4700B45659 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB1E2D3F5692C116A44F1E00 /* Pods-JSONTableView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSONTableView.release.xcconfig"; path = "Target Support Files/Pods-JSONTableView/Pods-JSONTableView.release.xcconfig"; sourceTree = "<group>"; };
+		DD27C7F0CA5DED0BD830B80D /* Pods_JSONTableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSONTableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6EF2C907BE879EF11714F29 /* Pods-JSONTableView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSONTableView.debug.xcconfig"; path = "Target Support Files/Pods-JSONTableView/Pods-JSONTableView.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5451389D22F5DD4600B45659 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD2C37923192D5564B3CED8A /* Pods_JSONTableView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5451389722F5DD4600B45659 = {
+			isa = PBXGroup;
+			children = (
+				545138A222F5DD4600B45659 /* JSONTableView */,
+				545138A122F5DD4600B45659 /* Products */,
+				DD3B10BBB15E13DE147E99AE /* Pods */,
+				67F40D41BC9958CA214E8BB4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		545138A122F5DD4600B45659 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				545138A022F5DD4600B45659 /* JSONTableView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		545138A222F5DD4600B45659 /* JSONTableView */ = {
+			isa = PBXGroup;
+			children = (
+				545138A322F5DD4600B45659 /* AppDelegate.swift */,
+				545138A522F5DD4600B45659 /* SceneDelegate.swift */,
+				545138A722F5DD4600B45659 /* ViewController.swift */,
+				545138A922F5DD4600B45659 /* Main.storyboard */,
+				545138AC22F5DD4700B45659 /* Assets.xcassets */,
+				545138AE22F5DD4700B45659 /* LaunchScreen.storyboard */,
+				545138B122F5DD4700B45659 /* Info.plist */,
+				541BA13822F5E2DC003C8631 /* ImageParser.swift */,
+				541BA13A22F5E8C0003C8631 /* JSONTableViewCell.swift */,
+			);
+			path = JSONTableView;
+			sourceTree = "<group>";
+		};
+		67F40D41BC9958CA214E8BB4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD27C7F0CA5DED0BD830B80D /* Pods_JSONTableView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD3B10BBB15E13DE147E99AE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E6EF2C907BE879EF11714F29 /* Pods-JSONTableView.debug.xcconfig */,
+				AB1E2D3F5692C116A44F1E00 /* Pods-JSONTableView.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5451389F22F5DD4600B45659 /* JSONTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 545138B422F5DD4700B45659 /* Build configuration list for PBXNativeTarget "JSONTableView" */;
+			buildPhases = (
+				13BF1DAD78F5E04601A23A57 /* [CP] Check Pods Manifest.lock */,
+				5451389C22F5DD4600B45659 /* Sources */,
+				5451389D22F5DD4600B45659 /* Frameworks */,
+				5451389E22F5DD4600B45659 /* Resources */,
+				4E8DE5EE3EB6B6FBBBCE8927 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSONTableView;
+			productName = JSONTableView;
+			productReference = 545138A022F5DD4600B45659 /* JSONTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5451389822F5DD4600B45659 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Brendan Milton";
+				TargetAttributes = {
+					5451389F22F5DD4600B45659 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 5451389B22F5DD4600B45659 /* Build configuration list for PBXProject "JSONTableView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5451389722F5DD4600B45659;
+			productRefGroup = 545138A122F5DD4600B45659 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5451389F22F5DD4600B45659 /* JSONTableView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5451389E22F5DD4600B45659 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				545138B022F5DD4700B45659 /* LaunchScreen.storyboard in Resources */,
+				545138AD22F5DD4700B45659 /* Assets.xcassets in Resources */,
+				545138AB22F5DD4600B45659 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13BF1DAD78F5E04601A23A57 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JSONTableView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E8DE5EE3EB6B6FBBBCE8927 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JSONTableView/Pods-JSONTableView-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JSONTableView/Pods-JSONTableView-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JSONTableView/Pods-JSONTableView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5451389C22F5DD4600B45659 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				541BA13922F5E2DC003C8631 /* ImageParser.swift in Sources */,
+				545138A822F5DD4600B45659 /* ViewController.swift in Sources */,
+				545138A422F5DD4600B45659 /* AppDelegate.swift in Sources */,
+				541BA13B22F5E8C0003C8631 /* JSONTableViewCell.swift in Sources */,
+				545138A622F5DD4600B45659 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		545138A922F5DD4600B45659 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				545138AA22F5DD4600B45659 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		545138AE22F5DD4700B45659 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				545138AF22F5DD4700B45659 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		545138B222F5DD4700B45659 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		545138B322F5DD4700B45659 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		545138B522F5DD4700B45659 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6EF2C907BE879EF11714F29 /* Pods-JSONTableView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Z9HS596GE;
+				INFOPLIST_FILE = JSONTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brendan.JSONTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		545138B622F5DD4700B45659 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB1E2D3F5692C116A44F1E00 /* Pods-JSONTableView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Z9HS596GE;
+				INFOPLIST_FILE = JSONTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brendan.JSONTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5451389B22F5DD4600B45659 /* Build configuration list for PBXProject "JSONTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				545138B222F5DD4700B45659 /* Debug */,
+				545138B322F5DD4700B45659 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		545138B422F5DD4700B45659 /* Build configuration list for PBXNativeTarget "JSONTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				545138B522F5DD4700B45659 /* Debug */,
+				545138B622F5DD4700B45659 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5451389822F5DD4600B45659 /* Project object */;
+}

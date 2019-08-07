@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14854.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Vvp-3m-FHE">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14806.4"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="JSONTableView" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="gDY-rL-cKn">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="JSONCell" rowHeight="166" id="ore-yw-aqm" customClass="JSONTableViewCell" customModule="JSONTableView" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="414" height="166"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ore-yw-aqm" id="U1i-Pf-6df">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="166"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="16J-9e-f44">
+                                            <rect key="frame" x="128" y="16" width="266" height="134"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aVE-q9-IdJ">
+                                                    <rect key="frame" x="0.0" y="0.0" width="266" height="65"/>
+                                                    <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="14"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eNa-PE-mrt">
+                                                    <rect key="frame" x="0.0" y="69" width="266" height="65"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="20.5" id="6Xx-9J-vGU"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="12"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </stackView>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="t3p-gh-gcf">
+                                            <rect key="frame" x="5" y="5" width="122" height="156"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="122" id="gei-u9-7Uv"/>
+                                            </constraints>
+                                        </imageView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="bottomMargin" secondItem="16J-9e-f44" secondAttribute="bottom" constant="5" id="38N-fA-97n"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="16J-9e-f44" secondAttribute="trailing" id="FWe-rr-Imc"/>
+                                        <constraint firstItem="t3p-gh-gcf" firstAttribute="leading" secondItem="U1i-Pf-6df" secondAttribute="leading" constant="5" id="IB4-Lx-VEs"/>
+                                        <constraint firstAttribute="bottom" secondItem="t3p-gh-gcf" secondAttribute="bottom" constant="5" id="jR1-Gq-Mab"/>
+                                        <constraint firstItem="16J-9e-f44" firstAttribute="top" secondItem="U1i-Pf-6df" secondAttribute="topMargin" constant="5" id="pCK-05-hBG"/>
+                                        <constraint firstItem="16J-9e-f44" firstAttribute="leading" secondItem="t3p-gh-gcf" secondAttribute="trailing" constant="1" id="q0g-6g-jGR"/>
+                                        <constraint firstItem="t3p-gh-gcf" firstAttribute="top" secondItem="U1i-Pf-6df" secondAttribute="top" constant="5" id="w5y-83-Oie"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="cellDetailText" destination="eNa-PE-mrt" id="0YF-gy-EvR"/>
+                                    <outlet property="cellImageView" destination="t3p-gh-gcf" id="zge-BO-Hx4"/>
+                                    <outlet property="cellLabel" destination="aVE-q9-IdJ" id="HvG-pq-ufw"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="3DT-83-tI5"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1047.8260869565217" y="90.401785714285708"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="CeM-yl-AeG">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Vvp-3m-FHE" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="1zF-CN-kCF">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="bLR-ml-S98"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="y4Q-nE-pZl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="90.401785714285708"/>
+        </scene>
+    </scenes>
+</document>
